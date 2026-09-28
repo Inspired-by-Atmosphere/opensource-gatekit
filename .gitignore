@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Credentials: never commit a real environment file
+.env
+*.pem
+*.key
+credentials.json
+
+# Scratch, backups and staging copies produced by a gate run
+scratch/
+staging/
+staging-*/
+*.bak_*
+*.orig
+*.rej

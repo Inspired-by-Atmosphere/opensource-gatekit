@@ -1,0 +1,9 @@
+# Normalize text files to LF inside the repository, keep Windows batch files CRLF.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary assets must never be rewritten.
+*.png binary
+*.jpg binary
+*.pdf binary

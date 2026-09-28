@@ -1,0 +1,9 @@
+# No third-party dependencies.
+#
+# This project uses the Python standard library only (Python 3.8 or newer).
+#
+#     pip install -r requirements.txt
+#
+# is intentionally a no-op: it documents that nothing has to be installed to
+# run scripts/check_secrets.py or examples/run_selfcheck.sh. Pinning a package
+# here would defeat the point of a gate that has to run on a clean machine.
